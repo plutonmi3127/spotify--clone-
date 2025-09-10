@@ -1,0 +1,19 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "A Spotify clone web application with music player functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -c-1",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": ["spotify", "music", "player", "web", "clone"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
